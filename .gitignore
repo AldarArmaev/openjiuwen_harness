@@ -1,0 +1,19 @@
+# local artifacts — never ship
+.probe_venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+.runs/
+out/
+logs/
+
+# dev-only benchmark tooling + generated datasets (contain solvability keys)
+benchmark/
+
+# local smoke tasks with answer.txt
+task-dir/
+
+# never commit secrets
+.env
+*.key
+*_api_key*
