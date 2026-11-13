@@ -1,0 +1,626 @@
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.21kB done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/python:3.12-slim-bookworm
+#2 DONE 3.3s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.1s
+
+#4 [internal] load build context
+#4 DONE 0.0s
+
+#5 [1/8] FROM docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#5 resolve docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df 0.0s done
+#5 ...
+
+#4 [internal] load build context
+#4 transferring context: 61.63kB 0.0s done
+#4 DONE 0.1s
+
+#5 [1/8] FROM docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#5 sha256:88d15687540999237909e04714b1393c610db9dc2e13d82acd6356fa9bf8f092 0B / 249B 0.2s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 0B / 13.68MB 0.2s
+#5 sha256:a47be7bff94f52aefb243d8b245b01c74976150bb88de60875c5eb7ac964f91e 0B / 3.34MB 0.2s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 0B / 28.25MB 0.2s
+#5 sha256:88d15687540999237909e04714b1393c610db9dc2e13d82acd6356fa9bf8f092 249B / 249B 0.3s done
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 1.05MB / 13.68MB 0.8s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 2.10MB / 13.68MB 1.1s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 3.15MB / 13.68MB 1.2s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 4.19MB / 13.68MB 1.4s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 5.24MB / 13.68MB 1.5s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 6.29MB / 13.68MB 1.8s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 7.34MB / 13.68MB 2.1s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 9.44MB / 13.68MB 2.4s
+#5 sha256:a47be7bff94f52aefb243d8b245b01c74976150bb88de60875c5eb7ac964f91e 1.05MB / 3.34MB 2.3s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 10.49MB / 13.68MB 2.6s
+#5 sha256:a47be7bff94f52aefb243d8b245b01c74976150bb88de60875c5eb7ac964f91e 3.34MB / 3.34MB 2.4s done
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 2.10MB / 28.25MB 2.4s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 11.53MB / 13.68MB 2.7s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 12.58MB / 13.68MB 2.9s
+#5 sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 13.68MB / 13.68MB 2.9s done
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 4.19MB / 28.25MB 3.0s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 6.29MB / 28.25MB 3.5s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 8.39MB / 28.25MB 4.1s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 10.49MB / 28.25MB 4.4s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 12.58MB / 28.25MB 4.8s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 14.68MB / 28.25MB 5.1s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 16.78MB / 28.25MB 5.4s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 18.87MB / 28.25MB 5.7s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 22.02MB / 28.25MB 6.0s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 24.12MB / 28.25MB 6.3s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 26.21MB / 28.25MB 6.5s
+#5 sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 28.25MB / 28.25MB 6.7s done
+#5 extracting sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3
+#5 extracting sha256:dd051e1b8c92ff101fa3071ab97ea4924885942f15644e01c3dc095764e863e3 0.7s done
+#5 DONE 7.7s
+
+#5 [1/8] FROM docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#5 extracting sha256:a47be7bff94f52aefb243d8b245b01c74976150bb88de60875c5eb7ac964f91e 0.1s done
+#5 DONE 7.8s
+
+#5 [1/8] FROM docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#5 extracting sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7
+#5 extracting sha256:8691b22c22a3e005c632ab6bc07b085b98dae9cc02d1d84de175849f997439c7 0.4s done
+#5 DONE 8.2s
+
+#5 [1/8] FROM docker.io/library/python:3.12-slim-bookworm@sha256:935c3c5b12357a7e10caa9c1e6ca5692344d97cf229832ef584be2cec9fc03df
+#5 extracting sha256:88d15687540999237909e04714b1393c610db9dc2e13d82acd6356fa9bf8f092 0.0s done
+#5 DONE 8.2s
+
+#6 [2/8] WORKDIR /app
+#6 DONE 0.1s
+
+#7 [3/8] RUN pip install --no-cache-dir openjiuwen==0.1.19
+#7 1.754 Collecting openjiuwen==0.1.19
+#7 2.263   Downloading openjiuwen-0.1.19-py3-none-any.whl.metadata (15 kB)
+#7 3.043 Collecting aiohttp>=3.11.12 (from openjiuwen==0.1.19)
+#7 3.158   Downloading aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (8.3 kB)
+#7 3.303 Collecting requests>=2.32.3 (from openjiuwen==0.1.19)
+#7 3.419   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#7 3.549 Collecting python-dateutil>=2.9.0.post0 (from openjiuwen==0.1.19)
+#7 3.664   Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+#7 3.801 Collecting filelock>=3.25.0 (from openjiuwen==0.1.19)
+#7 3.925   Downloading filelock-4.2.10-py3-none-any.whl.metadata (2.3 kB)
+#7 4.054 Collecting portalocker>=3.2.0 (from openjiuwen==0.1.19)
+#7 4.172   Downloading portalocker-4.4.2-py3-none-any.whl.metadata (10 kB)
+#7 4.295 Collecting aiofiles>=25.1.0 (from openjiuwen==0.1.19)
+#7 4.412   Downloading aiofiles-25.1.0-py3-none-any.whl.metadata (6.3 kB)
+#7 4.928 Collecting sqlalchemy>=2.0.41 (from sqlalchemy[asyncio]>=2.0.41->openjiuwen==0.1.19)
+#7 5.045   Downloading sqlalchemy-2.1.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (9.7 kB)
+#7 5.178 Collecting sqlmodel>=0.0.37 (from openjiuwen==0.1.19)
+#7 5.294   Downloading sqlmodel-0.0.50-py3-none-any.whl.metadata (9.5 kB)
+#7 5.426 Collecting agentdescent==0.4.6 (from openjiuwen==0.1.19)
+#7 5.551   Downloading agentdescent-0.4.6-py3-none-any.whl.metadata (34 kB)
+#7 5.694 Collecting anthropic>=0.120.2 (from openjiuwen==0.1.19)
+#7 5.808   Downloading anthropic-2.8.0-py3-none-any.whl.metadata (3.6 kB)
+#7 6.572 Collecting openai>=1.108.0 (from openjiuwen==0.1.19)
+#7 6.687   Downloading openai-3.50.0-py3-none-any.whl.metadata (45 kB)
+#7 8.007 Collecting transformers>=4.52.4 (from openjiuwen==0.1.19)
+#7 8.123   Downloading transformers-5.23.0-py3-none-any.whl.metadata (31 kB)
+#7 8.984 Collecting tiktoken>=0.12.0 (from openjiuwen==0.1.19)
+#7 9.100   Downloading tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (6.7 kB)
+#7 9.382 Collecting dashscope>=1.25.6 (from openjiuwen==0.1.19)
+#7 9.503   Downloading dashscope-2.1.0-py3-none-any.whl.metadata (39 kB)
+#7 9.866 Collecting pymilvus<2.6.10,>=2.6.2 (from openjiuwen==0.1.19)
+#7 9.990   Downloading pymilvus-2.6.9-py3-none-any.whl.metadata (6.8 kB)
+#7 10.31 Collecting fastmcp<4.0,>=2.14.2 (from openjiuwen==0.1.19)
+#7 10.42   Downloading fastmcp-3.4.11-py3-none-any.whl.metadata (8.5 kB)
+#7 10.62 Collecting mcp>=1.26.0 (from openjiuwen==0.1.19)
+#7 10.74   Downloading mcp-2.3.0-py3-none-any.whl.metadata (6.6 kB)
+#7 10.94 Collecting beautifulsoup4>=4.12.0 (from openjiuwen==0.1.19)
+#7 11.05   Downloading beautifulsoup4-4.15.0-py3-none-any.whl.metadata (3.8 kB)
+#7 11.24 Collecting trafilatura>=1.6.0 (from openjiuwen==0.1.19)
+#7 11.36   Downloading trafilatura-2.3.1-py3-none-any.whl.metadata (13 kB)
+#7 11.48 Collecting docx2txt>=0.8 (from openjiuwen==0.1.19)
+#7 11.60   Downloading docx2txt-0.9-py3-none-any.whl.metadata (529 bytes)
+#7 11.76 Collecting python-docx>=1.2.0 (from openjiuwen==0.1.19)
+#7 11.87   Downloading python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+#7 12.05 Collecting pdfplumber>=0.11.8 (from openjiuwen==0.1.19)
+#7 12.17   Downloading pdfplumber-0.11.10-py3-none-any.whl.metadata (43 kB)
+#7 12.36 Collecting openpyxl>=3.1.0 (from openjiuwen==0.1.19)
+#7 12.47   Downloading openpyxl-3.1.5-py2.py3-none-any.whl.metadata (2.5 kB)
+#7 14.09 Collecting numpy!=2.4.0 (from openjiuwen==0.1.19)
+#7 14.20   Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+#7 14.42 Collecting cacheout>=0.16.0 (from openjiuwen==0.1.19)
+#7 14.54   Downloading cacheout-0.17.0-py2.py3-none-any.whl.metadata (9.7 kB)
+#7 14.76 Collecting mermaid-py<0.9,>=0.8.0 (from openjiuwen==0.1.19)
+#7 14.88   Downloading mermaid_py-0.8.4-py3-none-any.whl.metadata (5.2 kB)
+#7 15.37 Collecting pycryptodome>=3.23.0 (from openjiuwen==0.1.19)
+#7 15.48   Downloading pycryptodome-4.4.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.1 kB)
+#7 15.99 Collecting charset-normalizer>=3.4.4 (from openjiuwen==0.1.19)
+#7 16.12   Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#7 16.24 Collecting pysbd>=0.3.4 (from openjiuwen==0.1.19)
+#7 16.36   Downloading pysbd-0.3.4-py3-none-any.whl.metadata (6.1 kB)
+#7 16.49 Collecting oauthlib>=3.3.1 (from openjiuwen==0.1.19)
+#7 16.61   Downloading oauthlib-4.0.1-py3-none-any.whl.metadata (8.6 kB)
+#7 16.75 Collecting python-dotenv>=1.2.1 (from openjiuwen==0.1.19)
+#7 16.86   Downloading python_dotenv-1.2.4-py3-none-any.whl.metadata (29 kB)
+#7 17.05 Collecting json-repair>=0.55.0 (from openjiuwen==0.1.19)
+#7 17.17   Downloading json_repair-0.64.9-py3-none-any.whl.metadata (21 kB)
+#7 17.37 Collecting PyYAML>=6.0.2 (from openjiuwen==0.1.19)
+#7 17.50   Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+#7 17.63 Collecting tenacity>=9.1.2 (from openjiuwen==0.1.19)
+#7 17.75   Downloading tenacity-9.2.1-py3-none-any.whl.metadata (1.4 kB)
+#7 17.90 Collecting alembic>=1.13.1 (from openjiuwen==0.1.19)
+#7 18.02   Downloading alembic-1.20.1-py3-none-any.whl.metadata (7.3 kB)
+#7 18.16 Collecting anyio>=4.0.0 (from openjiuwen==0.1.19)
+#7 18.28   Downloading anyio-4.16.0-py3-none-any.whl.metadata (4.7 kB)
+#7 18.40 Collecting loguru>=0.7.3 (from openjiuwen==0.1.19)
+#7 18.52   Downloading loguru-0.8.0-py3-none-any.whl.metadata (23 kB)
+#7 18.74 Collecting gitcode-api>=1.2.20 (from openjiuwen==0.1.19)
+#7 18.85   Downloading gitcode_api-1.3.4-py3-none-any.whl.metadata (22 kB)
+#7 19.17 Collecting pyoxigraph>=0.5.8 (from openjiuwen==0.1.19)
+#7 19.29   Downloading pyoxigraph-0.5.13-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (5.7 kB)
+#7 19.72 Collecting matplotlib>=3.11.1 (from openjiuwen==0.1.19)
+#7 19.83   Downloading matplotlib-3.11.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)
+#7 19.99 Collecting opentelemetry-sdk>=1.25.0 (from openjiuwen==0.1.19)
+#7 20.11   Downloading opentelemetry_sdk-1.45.2-py3-none-any.whl.metadata (1.6 kB)
+#7 20.25 Collecting aiohappyeyeballs>=2.5.0 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 20.36   Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl.metadata (5.9 kB)
+#7 20.48 Collecting aiosignal>=1.4.0 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 20.60   Downloading aiosignal-1.4.0-py3-none-any.whl.metadata (3.7 kB)
+#7 20.73 Collecting attrs>=17.3.0 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 20.85   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+#7 21.11 Collecting frozenlist>=1.1.1 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 21.23   Downloading frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (20 kB)
+#7 21.99 Collecting multidict<8.0,>=4.5 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 22.10   Downloading multidict-7.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (6.1 kB)
+#7 22.34 Collecting propcache>=0.2.0 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 22.46   Downloading propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (25 kB)
+#7 22.59 Collecting typing_extensions>=4.4 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 22.71   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#7 23.28 Collecting yarl<2.0,>=1.25.1 (from aiohttp>=3.11.12->openjiuwen==0.1.19)
+#7 23.40   Downloading yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (111 kB)
+#7 23.55 Collecting Mako (from alembic>=1.13.1->openjiuwen==0.1.19)
+#7 23.67   Downloading mako-1.4.3-py3-none-any.whl.metadata (2.9 kB)
+#7 23.80 Collecting docstring-parser<1,>=0.15 (from anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 23.92   Downloading docstring_parser-0.18.0-py3-none-any.whl.metadata (3.5 kB)
+#7 24.04 Collecting httpx2<3,>=2.0.0 (from anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 24.15   Downloading httpx2-2.16.0-py3-none-any.whl.metadata (10 kB)
+#7 24.43 Collecting jiter<1,>=0.4.0 (from anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 24.55   Downloading jiter-0.19.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+#7 24.68 Collecting opentelemetry-api<2,>=1.1.0 (from anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 24.80   Downloading opentelemetry_api-1.45.2-py3-none-any.whl.metadata (1.4 kB)
+#7 25.18 Collecting pydantic<3,>=1.10.0 (from anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 25.30   Downloading pydantic-2.14.3-py3-none-any.whl.metadata (141 kB)
+#7 25.43 Collecting sniffio<2,>=1 (from anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 25.55   Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+#7 25.68 Collecting idna>=2.8 (from anyio>=4.0.0->openjiuwen==0.1.19)
+#7 25.79   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#7 25.93 Collecting soupsieve>=1.6.1 (from beautifulsoup4>=4.12.0->openjiuwen==0.1.19)
+#7 26.05   Downloading soupsieve-4.1-py3-none-any.whl.metadata (4.4 kB)
+#7 26.18 Collecting websocket-client (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 26.30   Downloading websocket_client-1.9.2-py3-none-any.whl.metadata (8.3 kB)
+#7 26.81 Collecting cryptography (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 26.93   Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl.metadata (4.4 kB)
+#7 27.06 Collecting certifi>=2024.7.4 (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 27.19   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+#7 27.32 Collecting typer>=0.9.0 (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 27.44   Downloading typer-0.29.1-py3-none-any.whl.metadata (16 kB)
+#7 27.61 Collecting rich>=13.0.0 (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 27.72   Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+#7 27.85 Collecting httpx>=0.27.0 (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 27.97   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+#7 28.10 Collecting httpx-sse>=0.4.0 (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 28.23   Downloading httpx_sse-0.4.3-py3-none-any.whl.metadata (9.7 kB)
+#7 28.43 Collecting fastapi>=0.100 (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 28.55   Downloading fastapi-0.162.7-py3-none-any.whl.metadata (27 kB)
+#7 28.70 Collecting uvicorn>=0.20 (from dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 28.82   Downloading uvicorn-0.54.0-py3-none-any.whl.metadata (6.6 kB)
+#7 28.95 Collecting fastmcp-slim==3.4.11 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 29.07   Downloading fastmcp_slim-3.4.11-py3-none-any.whl.metadata (10 kB)
+#7 29.37 Collecting platformdirs>=4.0.0 (from fastmcp-slim==3.4.11->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 29.49   Downloading platformdirs-4.14.5-py3-none-any.whl.metadata (5.7 kB)
+#7 29.62 Collecting pydantic-settings>=2.0.0 (from fastmcp-slim==3.4.11->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 29.73   Downloading pydantic_settings-2.16.3-py3-none-any.whl.metadata (4.0 kB)
+#7 29.90 Collecting authlib>=1.6.11 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 30.02   Downloading authlib-1.9.5-py2.py3-none-any.whl.metadata (10 kB)
+#7 30.15 Collecting exceptiongroup>=1.2.2 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 30.27   Downloading exceptiongroup-1.3.1-py3-none-any.whl.metadata (6.7 kB)
+#7 30.28 Collecting mcp>=1.26.0 (from openjiuwen==0.1.19)
+#7 30.39   Downloading mcp-1.30.0-py3-none-any.whl.metadata (9.3 kB)
+#7 30.52 Collecting py-key-value-aio<0.5.0,>=0.4.4 (from py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 30.64   Downloading py_key_value_aio-0.4.6-py3-none-any.whl.metadata (16 kB)
+#7 30.80 Collecting starlette>=1.0.1 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 30.92   Downloading starlette-1.10.0-py3-none-any.whl.metadata (6.6 kB)
+#7 31.09 Collecting cyclopts>=4.0.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 31.22   Downloading cyclopts-5.4.2-py3-none-any.whl.metadata (12 kB)
+#7 31.35 Collecting griffelib>=2.0.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 31.46   Downloading griffelib-2.4.1-py3-none-any.whl.metadata (1.9 kB)
+#7 31.59 Collecting joserfc>=1.1.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 31.71   Downloading joserfc-1.8.0-py3-none-any.whl.metadata (3.1 kB)
+#7 31.83 Collecting jsonref>=1.1.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 31.94   Downloading jsonref-1.1.0-py3-none-any.whl.metadata (2.7 kB)
+#7 32.07 Collecting jsonschema-path>=0.3.4 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 32.18   Downloading jsonschema_path-0.5.0-py3-none-any.whl.metadata (8.1 kB)
+#7 32.30 Collecting openapi-pydantic>=0.5.1 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 32.42   Downloading openapi_pydantic-0.6.0-py3-none-any.whl.metadata (12 kB)
+#7 32.55 Collecting packaging>=24.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 32.67   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+#7 32.79 Collecting pyperclip>=1.9.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 32.90   Downloading pyperclip-1.11.0-py3-none-any.whl.metadata (2.4 kB)
+#7 33.03 Collecting python-multipart>=0.0.26 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 33.15   Downloading python_multipart-0.0.33-py3-none-any.whl.metadata (6.3 kB)
+#7 33.27 Collecting uncalled-for>=0.2.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 33.38   Downloading uncalled_for-0.6.1-py3-none-any.whl.metadata (4.3 kB)
+#7 33.66 Collecting watchfiles>=1.0.0 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 33.77   Downloading watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.9 kB)
+#7 34.07 Collecting websockets>=15.0.1 (from fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 34.19   Downloading websockets-17.4-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.3 kB)
+#7 34.40 Collecting contourpy>=1.0.1 (from matplotlib>=3.11.1->openjiuwen==0.1.19)
+#7 34.51   Downloading contourpy-1.4.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+#7 34.63 Collecting cycler>=0.10 (from matplotlib>=3.11.1->openjiuwen==0.1.19)
+#7 34.75   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+#7 35.13 Collecting fonttools>=4.28.2 (from matplotlib>=3.11.1->openjiuwen==0.1.19)
+#7 35.24   Downloading fonttools-4.68.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (139 kB)
+#7 35.47 Collecting kiwisolver>=1.3.1 (from matplotlib>=3.11.1->openjiuwen==0.1.19)
+#7 35.58   Downloading kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.2 kB)
+#7 35.97 Collecting pillow>=9 (from matplotlib>=3.11.1->openjiuwen==0.1.19)
+#7 36.09   Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+#7 36.25 Collecting pyparsing>=3 (from matplotlib>=3.11.1->openjiuwen==0.1.19)
+#7 36.37   Downloading pyparsing-3.3.3-py3-none-any.whl.metadata (5.9 kB)
+#7 36.52 Collecting jsonschema>=4.20.0 (from mcp>=1.26.0->openjiuwen==0.1.19)
+#7 36.63   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+#7 36.79 Collecting pyjwt>=2.10.1 (from pyjwt[crypto]>=2.10.1->mcp>=1.26.0->openjiuwen==0.1.19)
+#7 36.90   Downloading pyjwt-2.15.1-py3-none-any.whl.metadata (3.5 kB)
+#7 37.10 Collecting sse-starlette>=1.6.1 (from mcp>=1.26.0->openjiuwen==0.1.19)
+#7 37.22   Downloading sse_starlette-3.7.0-py3-none-any.whl.metadata (15 kB)
+#7 37.35 Collecting typing-inspection>=0.4.1 (from mcp>=1.26.0->openjiuwen==0.1.19)
+#7 37.47   Downloading typing_inspection-0.4.5-py3-none-any.whl.metadata (2.6 kB)
+#7 37.64 Collecting et-xmlfile (from openpyxl>=3.1.0->openjiuwen==0.1.19)
+#7 37.76   Downloading et_xmlfile-2.0.0-py3-none-any.whl.metadata (2.7 kB)
+#7 37.90 Collecting opentelemetry-semantic-conventions==0.66b2 (from opentelemetry-sdk>=1.25.0->openjiuwen==0.1.19)
+#7 38.01   Downloading opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl.metadata (2.4 kB)
+#7 38.15 Collecting pdfminer.six==20260107 (from pdfplumber>=0.11.8->openjiuwen==0.1.19)
+#7 38.26   Downloading pdfminer_six-20260107-py3-none-any.whl.metadata (4.3 kB)
+#7 38.49 Collecting pypdfium2>=5.9.0 (from pdfplumber>=0.11.8->openjiuwen==0.1.19)
+#7 38.61   Downloading pypdfium2-5.15.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (64 kB)
+#7 38.88 Collecting setuptools>69 (from pymilvus<2.6.10,>=2.6.2->openjiuwen==0.1.19)
+#7 39.00   Downloading setuptools-84.2.1-py3-none-any.whl.metadata (6.6 kB)
+#7 39.83 Collecting grpcio!=1.68.0,!=1.68.1,!=1.69.0,!=1.70.0,!=1.70.1,!=1.71.0,!=1.72.1,!=1.73.0,>=1.66.2 (from pymilvus<2.6.10,>=2.6.2->openjiuwen==0.1.19)
+#7 39.95   Downloading grpcio-1.85.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.8 kB)
+#7 40.33 Collecting orjson>=3.10.15 (from pymilvus<2.6.10,>=2.6.2->openjiuwen==0.1.19)
+#7 40.45   Downloading orjson-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (42 kB)
+#7 40.71 Collecting protobuf>=5.27.2 (from pymilvus<2.6.10,>=2.6.2->openjiuwen==0.1.19)
+#7 40.83   Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+#7 41.09 Collecting pandas>=1.2.4 (from pymilvus<2.6.10,>=2.6.2->openjiuwen==0.1.19)
+#7 41.20   Downloading pandas-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (16 kB)
+#7 41.36 Collecting cachetools>=5.0.0 (from pymilvus<2.6.10,>=2.6.2->openjiuwen==0.1.19)
+#7 41.48   Downloading cachetools-8.0.0-py3-none-any.whl.metadata (5.6 kB)
+#7 41.62 Collecting tzdata (from python-dateutil>=2.9.0.post0->openjiuwen==0.1.19)
+#7 41.73   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+#7 42.16 Collecting lxml>=3.1.0 (from python-docx>=1.2.0->openjiuwen==0.1.19)
+#7 42.29   Downloading lxml-6.1.3-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.3 kB)
+#7 42.43 Collecting urllib3<3,>=1.26 (from requests>=2.32.3->openjiuwen==0.1.19)
+#7 42.55   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#7 42.85 Collecting greenlet>=1 (from sqlalchemy[asyncio]>=2.0.41->openjiuwen==0.1.19)
+#7 42.97   Downloading greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+#7 43.53 Collecting regex (from tiktoken>=0.12.0->openjiuwen==0.1.19)
+#7 43.65   Downloading regex-2026.11.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+#7 43.79 Collecting courlan>=1.4.0 (from trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 43.91   Downloading courlan-1.4.0-py3-none-any.whl.metadata (18 kB)
+#7 44.04 Collecting htmldate>=1.11.0 (from trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 44.16   Downloading htmldate-1.11.0-py3-none-any.whl.metadata (9.8 kB)
+#7 44.28 Collecting justext>=3.0.2 (from trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 44.40   Downloading justext-3.0.2-py2.py3-none-any.whl.metadata (7.3 kB)
+#7 44.66 Collecting huggingface-hub<3.0,>=1.31.0 (from transformers>=4.52.4->openjiuwen==0.1.19)
+#7 44.77   Downloading huggingface_hub-2.4.0-py3-none-any.whl.metadata (16 kB)
+#7 45.04 Collecting tokenizers<0.24.0,>=0.23.1 (from transformers>=4.52.4->openjiuwen==0.1.19)
+#7 45.17   Downloading tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.8 kB)
+#7 45.39 Collecting safetensors>=0.8.0 (from transformers>=4.52.4->openjiuwen==0.1.19)
+#7 45.50   Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+#7 45.67 Collecting tqdm>=4.60 (from transformers>=4.52.4->openjiuwen==0.1.19)
+#7 45.78   Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+#7 45.95 Collecting babel>=2.16.0 (from courlan>=1.4.0->trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 46.06   Downloading babel-2.18.0-py3-none-any.whl.metadata (2.2 kB)
+#7 46.21 Collecting tld>=0.13 (from courlan>=1.4.0->trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 46.32   Downloading tld-0.13.2-py2.py3-none-any.whl.metadata (11 kB)
+#7 46.56 Collecting cffi>=2.0.0 (from cryptography->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 46.69   Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.5 kB)
+#7 46.85 Collecting annotated-doc>=0.0.2 (from fastapi>=0.100->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 46.97   Downloading annotated_doc-0.0.6-py3-none-any.whl.metadata (6.5 kB)
+#7 47.11 Collecting dateparser>=1.4.3 (from htmldate>=1.11.0->trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 47.23   Downloading dateparser-1.5.0-py3-none-any.whl.metadata (55 kB)
+#7 47.38 Collecting httpcore==1.* (from httpx>=0.27.0->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 47.49   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+#7 47.63 Collecting h11>=0.16 (from httpcore==1.*->httpx>=0.27.0->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 47.74   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+#7 47.88 Collecting httpcore2==2.16.0 (from httpx2<3,>=2.0.0->anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 48.00   Downloading httpcore2-2.16.0-py3-none-any.whl.metadata (27 kB)
+#7 48.13 Collecting truststore>=0.10 (from httpx2<3,>=2.0.0->anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 48.24   Downloading truststore-0.10.5-py3-none-any.whl.metadata (4.5 kB)
+#7 48.37 Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<3.0,>=1.31.0->transformers>=4.52.4->openjiuwen==0.1.19)
+#7 48.49   Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+#7 48.62 Collecting fsspec>=2023.5.0 (from huggingface-hub<3.0,>=1.31.0->transformers>=4.52.4->openjiuwen==0.1.19)
+#7 48.74   Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+#7 48.91 Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub<3.0,>=1.31.0->transformers>=4.52.4->openjiuwen==0.1.19)
+#7 49.03   Downloading hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+#7 49.17 Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=4.20.0->mcp>=1.26.0->openjiuwen==0.1.19)
+#7 49.29   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+#7 49.60 Collecting referencing>=0.28.4 (from jsonschema>=4.20.0->mcp>=1.26.0->openjiuwen==0.1.19)
+#7 49.71   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+#7 50.20 Collecting rpds-py>=0.25.0 (from jsonschema>=4.20.0->mcp>=1.26.0->openjiuwen==0.1.19)
+#7 50.31   Downloading rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+#7 50.48 Collecting annotated-types>=0.6.0 (from pydantic<3,>=1.10.0->anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 50.61   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+#7 51.44 Collecting pydantic-core==2.50.4 (from pydantic<3,>=1.10.0->anthropic>=0.120.2->openjiuwen==0.1.19)
+#7 51.56   Downloading pydantic_core-2.50.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (6.6 kB)
+#7 51.77 Collecting markdown-it-py>=2.2.0 (from rich>=13.0.0->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 51.89   Downloading markdown_it_py-4.3.0-py3-none-any.whl.metadata (7.9 kB)
+#7 52.03 Collecting pygments<3.0.0,>=2.13.0 (from rich>=13.0.0->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 52.15   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+#7 52.37 Collecting shellingham>=1.3.0 (from typer>=0.9.0->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 52.49   Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+#7 52.69 Collecting MarkupSafe>=2.0 (from Mako->alembic>=1.13.1->openjiuwen==0.1.19)
+#7 52.81   Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+#7 52.99 Collecting pycparser (from cffi>=2.0.0->cryptography->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 53.11   Downloading pycparser-3.12-py3-none-any.whl.metadata (9.7 kB)
+#7 53.25 Collecting rich-rst<3,>=2.0.1 (from cyclopts>=4.0.0->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 53.36   Downloading rich_rst-2.2.0-py3-none-any.whl.metadata (5.0 kB)
+#7 53.53 Collecting pytz>=2024.2 (from dateparser>=1.4.3->htmldate>=1.11.0->trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 53.65   Downloading pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+#7 53.79 Collecting tzlocal>=0.2 (from dateparser>=1.4.3->htmldate>=1.11.0->trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 53.90   Downloading tzlocal-5.4.5-py3-none-any.whl.metadata (7.7 kB)
+#7 54.06 Collecting pathable<0.7.0,>=0.6.0 (from jsonschema-path>=0.3.4->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 54.18   Downloading pathable-0.6.0-py3-none-any.whl.metadata (7.2 kB)
+#7 54.32 Collecting lxml_html_clean (from lxml[html_clean]>=4.4.2->justext>=3.0.2->trafilatura>=1.6.0->openjiuwen==0.1.19)
+#7 54.44   Downloading lxml_html_clean-0.4.6-py3-none-any.whl.metadata (2.4 kB)
+#7 54.56 Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.0.0->dashscope>=1.25.6->openjiuwen==0.1.19)
+#7 54.68   Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+#7 54.88 Collecting beartype>=0.20.0 (from py-key-value-aio<0.5.0,>=0.4.4->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 55.00   Downloading beartype-0.23.1-py3-none-any.whl.metadata (35 kB)
+#7 55.15 Collecting aiofile>=3.12.3 (from py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 55.28   Downloading aiofile-3.12.3-py3-none-any.whl.metadata (17 kB)
+#7 55.42 Collecting keyring>=25.6.0 (from py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 55.54   Downloading keyring-25.7.0-py3-none-any.whl.metadata (21 kB)
+#7 55.66 Collecting email-validator>=2.0.0 (from pydantic[email]>=2.11.7->fastmcp-slim==3.4.11->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 55.77   Downloading email_validator-2.3.0-py3-none-any.whl.metadata (26 kB)
+#7 56.07 Collecting caio~=0.12.0 (from aiofile>=3.12.3->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 56.19   Downloading caio-0.12.10-cp312-cp312-manylinux_2_34_x86_64.whl.metadata (4.6 kB)
+#7 56.32 Collecting dnspython>=2.0.0 (from email-validator>=2.0.0->pydantic[email]>=2.11.7->fastmcp-slim==3.4.11->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 56.43   Downloading dnspython-2.9.2-py3-none-any.whl.metadata (5.8 kB)
+#7 56.56 Collecting SecretStorage>=3.2 (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 56.68   Downloading secretstorage-3.5.0-py3-none-any.whl.metadata (4.0 kB)
+#7 56.80 Collecting jeepney>=0.4.2 (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 56.91   Downloading jeepney-0.9.0-py3-none-any.whl.metadata (1.2 kB)
+#7 57.03 Collecting jaraco.classes (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 57.15   Downloading jaraco.classes-3.4.0-py3-none-any.whl.metadata (2.6 kB)
+#7 57.27 Collecting jaraco.functools (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 57.39   Downloading jaraco_functools-4.6.0-py3-none-any.whl.metadata (2.9 kB)
+#7 57.51 Collecting jaraco.context (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 57.63   Downloading jaraco_context-6.1.2-py3-none-any.whl.metadata (4.2 kB)
+#7 57.82 Collecting more-itertools (from jaraco.classes->keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==3.4.11->fastmcp<4.0,>=2.14.2->openjiuwen==0.1.19)
+#7 57.93   Downloading more_itertools-11.2.1-py3-none-any.whl.metadata (42 kB)
+#7 58.07 Downloading openjiuwen-0.1.19-py3-none-any.whl (7.7 MB)
+#7 58.76    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.7/7.7 MB 11.3 MB/s eta 0:00:00
+#7 58.88 Downloading agentdescent-0.4.6-py3-none-any.whl (302 kB)
+#7 59.02 Downloading aiofiles-25.1.0-py3-none-any.whl (14 kB)
+#7 59.14 Downloading aiohttp-3.14.5-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.9 MB)
+#7 59.40    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.9/1.9 MB 7.1 MB/s eta 0:00:00
+#7 59.51 Downloading alembic-1.20.1-py3-none-any.whl (270 kB)
+#7 59.65 Downloading anthropic-2.8.0-py3-none-any.whl (2.5 MB)
+#7 59.88    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 11.3 MB/s eta 0:00:00
+#7 59.99 Downloading anyio-4.16.0-py3-none-any.whl (134 kB)
+#7 60.14 Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+#7 60.26 Downloading cacheout-0.17.0-py2.py3-none-any.whl (19 kB)
+#7 60.38 Downloading charset_normalizer-3.5.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (257 kB)
+#7 60.53 Downloading dashscope-2.1.0-py3-none-any.whl (2.2 MB)
+#7 60.84    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 6.8 MB/s eta 0:00:00
+#7 60.96 Downloading docx2txt-0.9-py3-none-any.whl (4.0 kB)
+#7 61.09 Downloading fastmcp-3.4.11-py3-none-any.whl (8.0 kB)
+#7 61.22 Downloading fastmcp_slim-3.4.11-py3-none-any.whl (785 kB)
+#7 61.29    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 785.9/785.9 kB 12.3 MB/s eta 0:00:00
+#7 61.40 Downloading filelock-4.2.10-py3-none-any.whl (218 kB)
+#7 61.54 Downloading gitcode_api-1.3.4-py3-none-any.whl (99 kB)
+#7 61.67 Downloading json_repair-0.64.9-py3-none-any.whl (54 kB)
+#7 61.79 Downloading loguru-0.8.0-py3-none-any.whl (69 kB)
+#7 61.92 Downloading matplotlib-3.11.2-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (9.9 MB)
+#7 62.88    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 10.3 MB/s eta 0:00:00
+#7 63.00 Downloading mcp-1.30.0-py3-none-any.whl (234 kB)
+#7 63.15 Downloading mermaid_py-0.8.4-py3-none-any.whl (32 kB)
+#7 63.27 Downloading numpy-2.5.4-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+#7 64.75    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 11.3 MB/s eta 0:00:00
+#7 64.87 Downloading oauthlib-4.0.1-py3-none-any.whl (161 kB)
+#7 65.01 Downloading openai-3.50.0-py3-none-any.whl (2.4 MB)
+#7 84.38    ━━━━━━━━━━━                              0.7/2.4 MB 22.0 kB/s eta 0:01:20
+#7 88.15 Downloading openpyxl-3.1.5-py2.py3-none-any.whl (250 kB)
+#7 88.65 Downloading opentelemetry_sdk-1.45.2-py3-none-any.whl (141 kB)
+#7 88.82 Downloading opentelemetry_api-1.45.2-py3-none-any.whl (60 kB)
+#7 88.95 Downloading opentelemetry_semantic_conventions-0.66b2-py3-none-any.whl (206 kB)
+#7 89.13 Downloading pdfplumber-0.11.10-py3-none-any.whl (60 kB)
+#7 89.27 Downloading pdfminer_six-20260107-py3-none-any.whl (6.6 MB)
+#7 90.42    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 6.0 MB/s eta 0:00:00
+#7 90.54 Downloading portalocker-4.4.2-py3-none-any.whl (129 kB)
+#7 90.68 Downloading pycryptodome-4.4.0-cp39-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.0 MB)
+#7 91.05    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 8.0 MB/s eta 0:00:00
+#7 91.18 Downloading pymilvus-2.6.9-py3-none-any.whl (301 kB)
+#7 91.34 Downloading pyoxigraph-0.5.13-cp312-cp312-manylinux_2_28_x86_64.whl (8.2 MB)
+#7 92.09    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.2/8.2 MB 10.9 MB/s eta 0:00:00
+#7 92.21 Downloading pysbd-0.3.4-py3-none-any.whl (71 kB)
+#7 92.34 Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+#7 92.47 Downloading python_docx-1.2.0-py3-none-any.whl (252 kB)
+#7 92.62 Downloading python_dotenv-1.2.4-py3-none-any.whl (23 kB)
+#7 92.75 Downloading pyyaml-6.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (807 kB)
+#7 92.82    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 807.9/807.9 kB 12.0 MB/s eta 0:00:00
+#7 92.94 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#7 93.07 Downloading sqlalchemy-2.1.8-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (4.7 MB)
+#7 93.51    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.7/4.7 MB 10.9 MB/s eta 0:00:00
+#7 93.63 Downloading sqlmodel-0.0.50-py3-none-any.whl (31 kB)
+#7 93.75 Downloading tenacity-9.2.1-py3-none-any.whl (32 kB)
+#7 93.88 Downloading tiktoken-0.14.0-cp312-cp312-manylinux_2_28_x86_64.whl (1.2 MB)
+#7 93.99    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 11.5 MB/s eta 0:00:00
+#7 94.11 Downloading trafilatura-2.3.1-py3-none-any.whl (158 kB)
+#7 94.25 Downloading transformers-5.23.0-py3-none-any.whl (13.3 MB)
+#7 95.49    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 10.7 MB/s eta 0:00:00
+#7 95.61 Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+#7 95.74 Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+#7 95.87 Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+#7 96.00 Downloading cachetools-8.0.0-py3-none-any.whl (18 kB)
+#7 96.13 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+#7 96.27 Downloading contourpy-1.4.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (383 kB)
+#7 96.43 Downloading courlan-1.4.0-py3-none-any.whl (34 kB)
+#7 96.56 Downloading cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (4.8 MB)
+#7 97.06    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 9.4 MB/s eta 0:00:00
+#7 97.20 Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+#7 97.32 Downloading docstring_parser-0.18.0-py3-none-any.whl (22 kB)
+#7 97.46 Downloading fastapi-0.162.7-py3-none-any.whl (152 kB)
+#7 97.60 Downloading fonttools-4.68.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+#7 98.15    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 9.8 MB/s eta 0:00:00
+#7 98.27 Downloading frozenlist-1.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (242 kB)
+#7 98.42 Downloading greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (621 kB)
+#7 98.49    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 621.4/621.4 kB 7.6 MB/s eta 0:00:00
+#7 98.61 Downloading grpcio-1.85.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (7.4 MB)
+#7 99.38    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 9.5 MB/s eta 0:00:00
+#7 99.50 Downloading htmldate-1.11.0-py3-none-any.whl (33 kB)
+#7 99.63 Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+#7 99.76 Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+#7 99.91 Downloading httpx_sse-0.4.3-py3-none-any.whl (9.0 kB)
+#7 100.0 Downloading httpx2-2.16.0-py3-none-any.whl (97 kB)
+#7 100.2 Downloading httpcore2-2.16.0-py3-none-any.whl (85 kB)
+#7 100.3 Downloading huggingface_hub-2.4.0-py3-none-any.whl (857 kB)
+#7 100.4    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 857.0/857.0 kB 11.7 MB/s eta 0:00:00
+#7 100.5 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#7 100.7 Downloading jiter-0.19.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (338 kB)
+#7 100.8 Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+#7 100.9 Downloading justext-3.0.2-py2.py3-none-any.whl (837 kB)
+#7 101.0    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 837.9/837.9 kB 11.1 MB/s eta 0:00:00
+#7 101.1 Downloading kiwisolver-1.5.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.5 MB)
+#7 101.4    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 5.7 MB/s eta 0:00:00
+#7 101.5 Downloading lxml-6.1.3-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.2 MB)
+#7 102.1    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.2/5.2 MB 9.2 MB/s eta 0:00:00
+#7 102.2 Downloading multidict-7.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (516 kB)
+#7 102.4 Downloading orjson-3.13.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (130 kB)
+#7 102.5 Downloading packaging-26.3-py3-none-any.whl (129 kB)
+#7 102.6 Downloading pandas-3.1.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.0 MB)
+#7 103.8    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.0/12.0 MB 9.9 MB/s eta 0:00:00
+#7 104.0 Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+#7 104.7    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 10.3 MB/s eta 0:00:00
+#7 104.8 Downloading propcache-0.5.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (250 kB)
+#7 104.9 Downloading protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (343 kB)
+#7 105.1 Downloading pydantic-2.14.3-py3-none-any.whl (494 kB)
+#7 105.3 Downloading pydantic_core-2.50.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.3 MB)
+#7 105.6    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 6.9 MB/s eta 0:00:00
+#7 105.7 Downloading pydantic_settings-2.16.3-py3-none-any.whl (82 kB)
+#7 105.8 Downloading pyjwt-2.15.1-py3-none-any.whl (33 kB)
+#7 106.0 Downloading pyparsing-3.3.3-py3-none-any.whl (126 kB)
+#7 106.1 Downloading pypdfium2-5.15.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.0 MB)
+#7 106.5    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 10.0 MB/s eta 0:00:00
+#7 106.7 Downloading python_multipart-0.0.33-py3-none-any.whl (32 kB)
+#7 106.8 Downloading regex-2026.11.9-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (808 kB)
+#7 106.9    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 808.8/808.8 kB 9.5 MB/s eta 0:00:00
+#7 107.0 Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+#7 107.2 Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)
+#7 107.4 Downloading setuptools-84.2.1-py3-none-any.whl (876 kB)
+#7 107.5    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 876.3/876.3 kB 10.1 MB/s eta 0:00:00
+#7 107.6 Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+#7 107.7 Downloading soupsieve-4.1-py3-none-any.whl (52 kB)
+#7 107.8 Downloading sse_starlette-3.7.0-py3-none-any.whl (18 kB)
+#7 108.0 Downloading starlette-1.10.0-py3-none-any.whl (80 kB)
+#7 108.1 Downloading tokenizers-0.23.3-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+#7 108.5    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 8.7 MB/s eta 0:00:00
+#7 108.6 Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+#7 108.8 Downloading typer-0.29.1-py3-none-any.whl (121 kB)
+#7 108.9 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#7 109.0 Downloading typing_inspection-0.4.5-py3-none-any.whl (14 kB)
+#7 109.1 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#7 109.3 Downloading uvicorn-0.54.0-py3-none-any.whl (87 kB)
+#7 109.4 Downloading yarl-1.25.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (117 kB)
+#7 109.5 Downloading et_xmlfile-2.0.0-py3-none-any.whl (18 kB)
+#7 109.7 Downloading mako-1.4.3-py3-none-any.whl (80 kB)
+#7 109.8 Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+#7 110.0 Downloading websocket_client-1.9.2-py3-none-any.whl (95 kB)
+#7 110.1 Downloading annotated_doc-0.0.6-py3-none-any.whl (5.3 kB)
+#7 110.2 Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+#7 110.4 Downloading authlib-1.9.5-py2.py3-none-any.whl (267 kB)
+#7 110.5 Downloading babel-2.18.0-py3-none-any.whl (10.2 MB)
+#7 111.5    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.2/10.2 MB 10.0 MB/s eta 0:00:00
+#7 111.6 Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+#7 111.8 Downloading click-8.5.1-py3-none-any.whl (126 kB)
+#7 111.9 Downloading cyclopts-5.4.2-py3-none-any.whl (300 kB)
+#7 112.1 Downloading dateparser-1.5.0-py3-none-any.whl (373 kB)
+#7 112.2 Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+#7 112.3 Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+#7 112.5 Downloading griffelib-2.4.1-py3-none-any.whl (172 kB)
+#7 112.6 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+#7 112.8 Downloading hf_xet-1.8.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.3 MB)
+#7 113.2    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 9.5 MB/s eta 0:00:00
+#7 113.3 Downloading joserfc-1.8.0-py3-none-any.whl (73 kB)
+#7 113.5 Downloading jsonref-1.1.0-py3-none-any.whl (9.4 kB)
+#7 113.6 Downloading jsonschema_path-0.5.0-py3-none-any.whl (24 kB)
+#7 113.7 Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+#7 113.8 Downloading markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
+#7 114.0 Downloading markupsafe-3.0.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+#7 114.3 Downloading openapi_pydantic-0.6.0-py3-none-any.whl (96 kB)
+#7 114.4 Downloading platformdirs-4.14.5-py3-none-any.whl (35 kB)
+#7 114.5 Downloading py_key_value_aio-0.4.6-py3-none-any.whl (171 kB)
+#7 114.7 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+#7 114.9    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 5.3 MB/s eta 0:00:00
+#7 115.0 Downloading pyperclip-1.11.0-py3-none-any.whl (11 kB)
+#7 115.1 Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+#7 115.3 Downloading rpds_py-2026.9.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (371 kB)
+#7 115.7 Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+#7 115.9 Downloading tld-0.13.2-py2.py3-none-any.whl (296 kB)
+#7 116.2 Downloading truststore-0.10.5-py3-none-any.whl (19 kB)
+#7 116.3 Downloading uncalled_for-0.6.1-py3-none-any.whl (18 kB)
+#7 116.5 Downloading watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (458 kB)
+#7 116.9 Downloading websockets-17.4-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (226 kB)
+#7 117.2 Downloading aiofile-3.12.3-py3-none-any.whl (22 kB)
+#7 117.3 Downloading beartype-0.23.1-py3-none-any.whl (1.6 MB)
+#7 118.1    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 2.2 MB/s eta 0:00:00
+#7 118.2 Downloading email_validator-2.3.0-py3-none-any.whl (35 kB)
+#7 118.4 Downloading keyring-25.7.0-py3-none-any.whl (39 kB)
+#7 118.5 Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+#7 118.7 Downloading pathable-0.6.0-py3-none-any.whl (18 kB)
+#7 118.8 Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+#7 119.1 Downloading rich_rst-2.2.0-py3-none-any.whl (279 kB)
+#7 119.3 Downloading tzlocal-5.4.5-py3-none-any.whl (18 kB)
+#7 119.4 Downloading lxml_html_clean-0.4.6-py3-none-any.whl (14 kB)
+#7 119.6 Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+#7 119.7 Downloading caio-0.12.10-cp312-cp312-manylinux_2_34_x86_64.whl (162 kB)
+#7 119.9 Downloading dnspython-2.9.2-py3-none-any.whl (360 kB)
+#7 120.2 Downloading jeepney-0.9.0-py3-none-any.whl (49 kB)
+#7 120.3 Downloading secretstorage-3.5.0-py3-none-any.whl (15 kB)
+#7 120.4 Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+#7 120.6 Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+#7 120.7 Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+#7 120.8 Downloading more_itertools-11.2.1-py3-none-any.whl (74 kB)
+#7 120.9 ERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE. If you have updated the package versions, please update the hashes. Otherwise, examine the package contents carefully; someone may have tampered with them.
+#7 120.9     unknown package:
+#7 120.9         Expected sha256 7002115247cacb167154a3da4c668d074e61014a661d2c1ac02583da24e2ce19
+#7 120.9              Got        8668888f2abc1a5e66cca07f32cfdf321d8b1a365b0107379b258132456facef
+#7 120.9 
+#7 ERROR: process "/bin/sh -c pip install --no-cache-dir openjiuwen==0.1.19" did not complete successfully: exit code: 1
+------
+ > [3/8] RUN pip install --no-cache-dir openjiuwen==0.1.19:
+120.3 Downloading secretstorage-3.5.0-py3-none-any.whl (15 kB)
+120.4 Downloading jaraco.classes-3.4.0-py3-none-any.whl (6.8 kB)
+120.6 Downloading jaraco_context-6.1.2-py3-none-any.whl (7.9 kB)
+120.7 Downloading jaraco_functools-4.6.0-py3-none-any.whl (11 kB)
+120.8 Downloading more_itertools-11.2.1-py3-none-any.whl (74 kB)
+120.9 ERROR: THESE PACKAGES DO NOT MATCH THE HASHES FROM THE REQUIREMENTS FILE. If you have updated the package versions, please update the hashes. Otherwise, examine the package contents carefully; someone may have tampered with them.
+120.9     unknown package:
+120.9         Expected sha256 7002115247cacb167154a3da4c668d074e61014a661d2c1ac02583da24e2ce19
+120.9              Got        8668888f2abc1a5e66cca07f32cfdf321d8b1a365b0107379b258132456facef
+120.9 
+------
+Dockerfile:15
+--------------------
+  13 |     # Install openJiuwen from PyPI at a pinned version (sanctioned by the regulation).
+  14 |     # All build-time downloads land in the image; nothing is fetched at run time.
+  15 | >>> RUN pip install --no-cache-dir openjiuwen==0.1.19
+  16 |     
+  17 |     # Third-party libraries the harness itself uses for data_analysis / coding tools.
+--------------------
+ERROR: failed to build: failed to solve: process "/bin/sh -c pip install --no-cache-dir openjiuwen==0.1.19" did not complete successfully: exit code: 1
+
+View build details: docker-desktop://dashboard/build/desktop-linux/desktop-linux/b0v4j9nn10s06at7ifnuatrd1
+
+real	2m14.673s
+user	0m0.077s
+sys	0m0.154s
+BUILD_EXIT=1
