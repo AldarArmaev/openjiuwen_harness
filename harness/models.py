@@ -32,7 +32,22 @@ class SyncModel:
         return reply
 
 
+def _chdir_writable():
+    """openjiuwen's default logger creates ./logs relative to CWD at import
+    time. Under the jury's read-only root (--workdir /app) that raises, so
+    move to a writable dir first. All harness paths are resolved absolute
+    before build() is called, so this is safe."""
+    for cand in (os.environ.get('HOME'), '/tmp', os.getcwd()):
+        if cand and os.access(cand, os.W_OK):
+            try:
+                os.chdir(cand)
+                return
+            except OSError:
+                continue
+
+
 def build(model=None, timeout=60, max_retries=0):
+    _chdir_writable()
     from openjiuwen.core.foundation.llm import Model, ModelClientConfig, ModelRequestConfig
 
     return SyncModel(Model(
